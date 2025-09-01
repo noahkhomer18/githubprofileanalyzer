@@ -301,4 +301,13 @@ document.addEventListener('DOMContentLoaded', () => {
     searchInput.addEventListener('blur', () => {
         searchInput.parentElement.style.transform = 'scale(1)';
     });
+    
+    // Example username click functionality
+    const exampleUsername = document.querySelector('.example-username');
+    if (exampleUsername) {
+        exampleUsername.addEventListener('click', function() {
+            searchInput.value = 'noahkhomer18';
+            searchInput.focus();
+        });
+    }
 });

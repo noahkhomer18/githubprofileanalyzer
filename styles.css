@@ -187,6 +187,26 @@ html {
   margin-bottom: 3rem;
 }
 
+.search-hint {
+  text-align: center;
+  margin-top: 1rem;
+  color: var(--muted-foreground);
+  font-size: 0.9rem;
+}
+
+.example-username {
+  color: var(--primary);
+  font-weight: 600;
+  font-family: 'Monaco', 'Menlo', monospace;
+  cursor: pointer;
+  transition: color 0.2s ease;
+}
+
+.example-username:hover {
+  color: var(--chart-1);
+  text-decoration: underline;
+}
+
 .search-container {
   display: flex;
   gap: 0.75rem;
