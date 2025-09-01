@@ -1,6 +1,7 @@
 # 🚀 GitHub Profile Analyzer
 
 A modern, responsive web application that provides comprehensive insights into GitHub user profiles, tech stack analysis, and repository analytics. Built with vanilla JavaScript and styled using a custom shadecn-inspired design system.
+Try it live @https://githubprofileanalyzer.noah-khomer.com/
 
 ![GitHub Profile Analyzer](https://img.shields.io/badge/Status-Production%20Ready-brightgreen)
 ![Tech Stack](https://img.shields.io/badge/JavaScript-Vanilla-blue)
